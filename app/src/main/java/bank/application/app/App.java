@@ -14,10 +14,10 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class main_Class extends JFrame implements ActionListener {
+public class App extends JFrame implements ActionListener {
     JButton b1,b2,b3,b4,b5,b6,b7;
     String pin;
-    main_Class(String pin){
+    App(String pin){
         this.pin = pin;
 
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("icon/atm2.png"));
@@ -114,6 +114,6 @@ public class main_Class extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) {
-        new main_Class("");
+        new App("");
     }
 }

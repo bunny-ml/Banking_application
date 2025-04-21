@@ -96,7 +96,7 @@ public class FastCash extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if (e.getSource()==b7) {
             setVisible(false);
-            new main_Class(pin);
+            new App(pin);
         }else {
             String amount = ((JButton)e.getSource()).getText().substring(4);
             Connn c = new Connn();
@@ -123,7 +123,7 @@ public class FastCash extends JFrame implements ActionListener {
                 E.printStackTrace();
             }
             setVisible(false);
-            new main_Class(pin);
+            new App(pin);
         }
 
 

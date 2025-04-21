@@ -75,7 +75,7 @@ public class BalanceEnquriy extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent e) {
         setVisible(false);
-        new main_Class(pin);
+        new App(pin);
     }
 
     public static void main(String[] args) {
